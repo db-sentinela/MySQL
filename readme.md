@@ -8,7 +8,7 @@ Este repositório cobre **MySQL**. Os procedimentos são independentes de client
 
 | Seção | Cobertura | Documentos |
 |---|---|---|
-| [InnoDB-Cluster](InnoDB-Cluster/) | Alta disponibilidade: instalação, failover/switchover, quórum, queda total, clone, start/stop, monitoração, Router HA | 9 + README |
+| [InnoDB-Cluster](InnoDB-Cluster/) | Alta disponibilidade: instalação, failover/switchover, quórum, queda total, clone, start/stop, monitoração, Router HA | 10 + README |
 | [Troubleshooting](Troubleshooting/) | Locks e bloqueios, deadlocks, metadata locks, queries lentas (EXPLAIN, slow log, performance_schema) | 7 + README |
 | [Backup & Restore](Backup&Restore/) | Lógico (mysqldump, MySQL Shell), físico (CLONE, XtraBackup) e **PITR** | 5 + README |
 | [Security](Security/) | Hardening, privilégios, autenticação, privilege escalation, TLS, SQL injection, auditoria | 7 + README |

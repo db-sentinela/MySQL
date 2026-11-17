@@ -36,6 +36,7 @@ Se você nunca mexeu neste cluster, leia nesta ordem:
 | [Failover automático e Switchover planejado](innodb-cluster-failover-switchover.md) | Troca de primário na queda (automática) e planejada (`setPrimaryInstance`), com simulação real | Validado |
 | [Desligamento e inicialização ordenados](innodb-cluster-start-stop-ordenado.md) | Parar e subir o ambiente (ou um nó) sem crash nem perda de quórum | Validado |
 | [Substituição e recuperação de nó (clone)](innodb-cluster-substituicao-no-clone.md) | Remover e reprovisionar um nó do zero com `recoveryMethod:'clone'` | Validado |
+| [Modo Multi-Primary](innodb-cluster-multi-primary.md) | Alternar Single ↔ Multi-Primary, escrita em todos os nós e o risco de conflitos | Validado |
 
 ### Recuperação de desastre
 
@@ -84,6 +85,7 @@ InnoDB-Cluster/
 ├── innodb-cluster-fundamentos-alta-disponibilidade.md
 ├── innodb-cluster-single-primary-router.md
 ├── innodb-cluster-failover-switchover.md
+├── innodb-cluster-multi-primary.md
 ├── innodb-cluster-start-stop-ordenado.md
 ├── innodb-cluster-substituicao-no-clone.md
 ├── innodb-cluster-recuperacao-queda-total.md
