@@ -13,6 +13,7 @@ Este repositório cobre **MySQL**. Os procedimentos são independentes de client
 | [Backup & Restore](Backup&Restore/) | Lógico (mysqldump, MySQL Shell), físico (CLONE, XtraBackup) e **PITR** | 5 + README |
 | [Security](Security/) | Hardening, privilégios, autenticação, privilege escalation, TLS, SQL injection, auditoria | 7 + README |
 | [Tuning](Tuning/) | Buffer pool, memória, redo/durabilidade, conexões, histogramas e índices invisíveis, benchmark | 7 + README |
+| [Observability](Observability/) | Observabilidade com PMM 3: instalação do cliente, adição de instância, InnoDB Cluster (Group Replication) e dashboards/QAN | 4 + README |
 
 Cada seção tem um `README.md` próprio, que indexa e explica seus documentos.
 
@@ -44,11 +45,12 @@ Todo procedimento deste repositório segue o mesmo formato:
 ```
 MySQL/
 ├── readme.md
-├── InnoDB-Cluster/      (HA — 9 docs + README)
+├── InnoDB-Cluster/      (HA — 10 docs + README)
 ├── Troubleshooting/     (locks, deadlocks, queries lentas — 7 docs + README)
 ├── Backup&Restore/      (lógico, físico, PITR — 5 docs + README)
 ├── Security/            (hardening, vulnerabilidades, TLS — 7 docs + README)
-└── Tuning/              (buffer pool, otimizador, benchmark — 7 docs + README)
+├── Tuning/              (buffer pool, otimizador, benchmark — 7 docs + README)
+└── Observability/       (PMM: instalação, add instância, InnoDB Cluster, dashboards — 4 docs + README)
 ```
 
 ## Como usar
